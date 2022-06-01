@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta http-equiv="Cache-control" content="public">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
     <!-- <link rel="stylesheet" href="style_deux.css"> -->
 </head>
 
 <body>
     <header>
-        <div class="container-header">
+        <nav class="container-header">
 
             <div class="header-left">
                 <img id="logo" src="icone/logo.png" alt="">
@@ -56,142 +56,147 @@
                 </div>
 
             </div>
-        </div>
+        </nav>
 
     </header>
 
-    <section>
-        <h1>
-            VENDEZ ET ACHETEZ PRES DE CHEZ VOUS
-        </h1>
+    <main>
 
-        <!-- <div class="rien"></div> -->
+        <section>
+            <h1>
+                VENDEZ ET ACHETEZ PRES DE CHEZ VOUS
+            </h1>
 
-        <!-- ODF = Offres; Demandes; Faire un don -->
+            <!-- <div class="rien"></div> -->
 
-        <div class="container-section-un">
+            <!-- ODF = Offres; Demandes; Faire un don -->
 
-            
-            <div class="div-forulaire">
-                <div class="div-formulaire_ODF div-formulaire_O">
-
-                    <span class="span-label">
-                        <input name="ch" class="class-input" type="radio" id="moment">
-                        <label class="label-un" for="moment">
-                            <span></span>
-                        </label>
-
-                    </span>Offres
-                </div>
+            <div class="container-section-un">
 
 
-                <div class="div-formulaire_ODF">
+                <div class="div-forulaire">
+                    <div class="div-formulaire_ODF div-formulaire_O">
 
-                    <span class="span-label">
-                        <input name="ch" class="class-input" type="radio" id="moment2">
-                        <label class="label-un" for="moment2">
-                            <span></span>
-                        </label>
+                        <span class="span-label">
+                            <input name="ch" class="class-input" type="radio" id="moment">
+                            <label class="label-un" for="moment">
+                                <span></span>
+                            </label>
 
-                    </span>Demandes
-                </div>
-
-                <div class="div-formulaire_ODF">
-
-                    <span class="span-label">
-                        <input name="ch" class="class-input" type="radio" id="moment3">
-                        <label class="label-un" for="moment3">
-                            <span></span>
-                        </label>
-
-                    </span> <span id="faire-un-don">Faire un don</span>
-                </div>
-
-            </div>
-
-            <!-- deuxieme partie de la premiere section -->
-
-            <div class="container-section-deux">
-
-                <!-- <form action="" method="post"> -->
-
-                <div class="container-categorie">
-                    <div class="box-un">
-                        <select class="select-categories" name="nom">
-                            <option value="1">Categories</option>
-                            <option value="2">Vacances</option>
-                            <option value="3">Vetements</option>
-                            <option value="4">Offres d'emplois</option>
-                            <option value="5">Ventes immo</option>
-                            <option value="6">Voitures</option>
-                        </select>
+                        </span>Offres
                     </div>
 
-                    <img id="bulleted" src="icone/Bulleted-List.png" alt="">
+
+                    <div class="div-formulaire_ODF">
+
+                        <span class="span-label">
+                            <input name="ch" class="class-input" type="radio" id="moment2">
+                            <label class="label-un" for="moment2">
+                                <span></span>
+                            </label>
+
+                        </span>Demandes
+                    </div>
+
+                    <div class="div-formulaire_ODF">
+
+                        <span class="span-label">
+                            <input name="ch" class="class-input" type="radio" id="moment3">
+                            <label class="label-un" for="moment3">
+                                <span></span>
+                            </label>
+
+                        </span> <span id="faire-un-don">Faire un don</span>
+                    </div>
+
+                </div>
+
+                <!-- deuxieme partie de la premiere section -->
+
+                <div class="container-section-deux">
+
+                    <!-- <form action="" method="post"> -->
+
+                    <div class="container-categorie">
+                        <div class="box-un">
+                            <select class="select-categories" name="nom">
+                                <option value="1">Categories</option>
+                                <option value="2">Vacances</option>
+                                <option value="3">Vetements</option>
+                                <option value="4">Offres d'emplois</option>
+                                <option value="5">Ventes immo</option>
+                                <option value="6">Voitures</option>
+                            </select>
+                        </div>
+
+                        <img id="bulleted" src="icone/Bulleted-List.png" alt="">
+                    </div>
+
+
+
+                    <div class="box-deux"></div>
+
+                    <div class="search-bar">
+                        <form class="example" action="/action_page.php">
+                            <input type="text" placeholder="Que recherchez-vous ?" name="search">
+                            <button type="submit"><i class="fa fa-search" name="search"></i></button>
+                        </form>
+                    </div>
+
+                    <div class="place-marker">
+                        <form class="example" action="/action_page.php">
+                            <input type="text" placeholder="Saisissez une ville et un rayon" name="place-marker">
+                            <button type="submit"><img src="icone/Place-Marker.png" name="place-marker"
+                                    alt="#"></button>
+                        </form>
+                    </div>
+
+                </div>
+
+
+                <!--  Troisieme partie de la premiere section-->
+
+                <div class="bouton-prix">
+                    <a href="#">Prix</a>
                 </div>
 
 
 
-                <div class="box-deux"></div>
+                <!--  4em partie de la premiere section-->
 
-                <div class="search-bar">
-                    <form class="example" action="/action_page.php">
-                        <input type="text" placeholder="Que recherchez-vous ?" name="search">
-                        <button type="submit"><i class="fa fa-search" name="search"></i></button>
-                    </form>
+                <div class="conteneur-bouton-on-off">
+
+                    <div class="bouton-on_off">
+
+                        <label for="checkbox" class="switch">
+                            <input type="checkbox" id="checkbox">
+                            <span class="slider"></span>
+                        </label>
+
+                    </div>
+
+                    <div class="voir-egalement">
+
+                        <div>Voir également les annonces disponibles en livraison</div>
+
+                        <div><img src="icone/Help.png" alt="Aide"></div>
+
+                    </div>
+
                 </div>
 
-                <div class="place-marker">
-                    <form class="example" action="/action_page.php">
-                        <input type="text" placeholder="Saisissez une ville et un rayon" name="place-marker">
-                        <button type="submit"><img src="icone/Place-Marker.png" name="place-marker" alt="#"></button>
-                    </form>
+                <!--  5em partie de la premiere section-->
+
+                <div class="conteneur-bouton_recherche">
+                    <a href="#">Rechercher (17 000résultats)</a>
                 </div>
 
+                <!-- fin de la premiere section -->
             </div>
 
+        </section>
 
-            <!--  Troisieme partie de la premiere section-->
-
-            <div class="bouton-prix">
-                <a href="#">Prix</a>
-            </div>
-
-
-
-            <!--  4em partie de la premiere section-->
-
-            <div class="conteneur-bouton-on-off">
-
-                <div class="bouton-on_off">
-
-                    <label for="checkbox" class="switch">
-                        <input type="checkbox" id="checkbox">
-                        <span class="slider"></span>
-                    </label>
-
-                </div>
-
-                <div class="voir-egalement">
-
-                    <div>Voir également les annonces disponibles en livraison</div>
-
-                    <div><img src="icone/Help.png" alt="Aide"></div>
-
-                </div>
-
-            </div>
-
-            <!--  5em partie de la premiere section-->
-
-            <div class="conteneur-bouton_recherche">
-                <a href="#">Rechercher (17 000résultats)</a>
-            </div>
-
-            <!-- fin de la premiere section -->
-        </div>
-
-    </section>
+    </main>
 
     <!-- Deuxieme section -->
 
@@ -257,13 +262,13 @@
 
         <div class="container-texte-passionner">
 
-            <div class="titre-rejoindre-communaute">Rejoignez notre <span
+            <article class="titre-rejoindre-communaute">Rejoignez notre <span
                     class="titre-bleu-rejoindre-communaute">communauté</span> de <span
                     class="titre-bleu-rejoindre-communaute">passionner</span>
-            </div>
+            </article>
 
 
-            <div class="container-communaute">
+            <article class="container-communaute">
                 <img class="image-communaute" src="image/Rectangle-50 (2).webp" alt="">
 
                 <div class="rectangle-blanc">
@@ -281,18 +286,18 @@
                         <a class="add" href="#">Déposer une annonce</a>
                     </div>
                 </div>
-            </div>
+            </article>
 
         </div>
 
-        <div class="text-avec_assigame">
+        <article class="text-avec_assigame">
             Avec Assigamé, trouvez la bonne affaire sur le site référent de petites annonces de particulier à
             particulier et de professionnels. Avec des milliers de petites annonces, trouvez la bonne occasion dans nos
             catégories voiture, immobilier, emploi, location de vacances, vêtements, meubles, bricolage, téléphonie,
             jeux vidéo, etc… Déposez une annonce gratuite en toute simplicité pour vendre, rechercher, donner vos biens
             de seconde main ou promouvoir vos services. Achetez en toute sécurité avec notre système de paiement en
             ligne et de livraison pour les annonces éligibles.
-        </div>
+        </article>
 
     </section>
 
@@ -435,7 +440,7 @@
 
             <!-- formulaire -->
 
-            <!-- <form class="container-formulaire" action="traitement.php" method="post">
+    <!-- <form class="container-formulaire" action="traitement.php" method="post">
 
                 <div class="form-nom_mail">
                     <div class="field">
@@ -471,7 +476,7 @@
 
     <!--          7em section            -->
 
-    <div id="section-sept">
+    <footer id="section-sept">
 
         <div class="bloc-footer">
 
@@ -596,7 +601,7 @@
 
         </div>
 
-    </div>
+    </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
