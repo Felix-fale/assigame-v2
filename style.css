@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
-
 *{
     margin: 0;
     padding: 0;
@@ -1108,4 +1107,50 @@ hr{
 
 .bloc-footer_global-un a{
     color: white;
+}
+
+/*         partie responsivité      */
+
+
+@media screen and (max-width: 2561px ){
+    body{
+        background-size: 2600px 650px;
+    }
+}
+
+@media screen and (max-width: 1441px ){
+    body{
+        background-size: 1441px 650px;
+    }
+}
+
+@media screen and (max-width: 1207px ){
+    .place-marker{
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 1185px ) {
+    .container-header{
+        padding: 0 21px;
+    }
+
+}
+
+@media screen and (max-width: 1162px ) {
+    #img-avis {
+        left: 100px;
+        top: 43px;
+        max-width: 260px;
+    }
+
+    .carte-maps{
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 1280px ){
+    body{
+        background-size: 1281px 650px;
+    }
 }
