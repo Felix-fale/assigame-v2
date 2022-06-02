@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
+@font-face {
+    font-family:'Open Sans', sans-serif;;
+    src: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+    font-display: auto;
+}
+
 
 *{
     margin: 0;
@@ -113,8 +119,7 @@ header a:hover{
 .add{
     color: #FFFFFF;
 }
-/* Balise h1 */
-
+/* =========Balise h1=========== */
 h1{
     font-size: 27px;
     font-weight: 700;
@@ -125,14 +130,6 @@ h1{
     animation-name: example;
     animation-duration: 10s;
 }
-
-  @keyframes example {
-    0%   {color: red;}
-    25%  {color: yellow;}
-    50%  {color: blue;}
-    100% {color: green;}
-  }
-
 /* Premiere partie de la section un */
 .container-section-un{
     max-width: 1180px;
@@ -193,9 +190,7 @@ h1{
 #faire-un-don{
     color: #001D3B;
 }
-
 /* Deuxieme ligne de la de la premiere section */
-
 .box-un{
     position: relative;
 }
@@ -211,16 +206,6 @@ h1{
     cursor: pointer;
     box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
     border-radius: 5px 0px 0px 5px;
-    /* appearance: none; */
-}
-
-option{
-    position: relative;
-    left: 100px;
-}
-
-.option-categories{
-    display: flex;
 }
 
 #bulleted{
@@ -243,12 +228,7 @@ option{
     right: 46px;
     bottom: 5px;
 }
-
 /*        search bar and position bar       */
-
-*{box-sizing: border-box;
-}
-
 .search-bar{
     position: relative;
     right: 46px;
@@ -286,9 +266,7 @@ form.example::after {
   clear: both;
   display: table;
 }
-
 /*             place-marker         */
-
 .place-marker{
     margin-left: 55px;
     position: relative;
@@ -305,19 +283,13 @@ form.example::after {
     width: 403px;
     margin-right: 0;
 }
-
 /* conteneur niveau deux de la section deux */
-
 .container-section-deux{
     display: flex;
     justify-content: center;
     margin-top: 17px;
 }
-
 /* niveau trois de la section deux */
-
-/* bouton prix */
-
 .container-bouton-prix_on-off{
     display: flex;
 }
@@ -398,9 +370,7 @@ input:checked + .slider{
 input:checked + .slider::before{
     transform: translate(17px);
 }
-
 /* ......................... */
-
 .conteneur-bouton-on-off{
     position: relative;
     
@@ -428,9 +398,7 @@ input:checked + .slider::before{
     left: 125px;
     width: 427px;
 }
-
 /*                   2em section                */
-
 .titre-categories {
     font-style: normal;
     font-weight: 600;
@@ -441,8 +409,7 @@ input:checked + .slider::before{
 }
 
 .section_deux{
-    width: 100%;
-    height: 792px;  
+    width: 100%;  
     background: #FFFFFF;
     margin-top: 100px;
 }
@@ -452,9 +419,7 @@ input:checked + .slider::before{
     margin: 0 auto;
     margin-bottom: 98px;
 }
-
 /* 1er bloc conteneur section deux*/
-
 .text-top-categorie{
     position: relative;
     bottom: 27px;
@@ -464,9 +429,7 @@ input:checked + .slider::before{
     color: white;
     max-width: ;
 }
-
 /* 2em bloc conteneur section deux*/
-
 .titre-rejoindre-communaute{
     font-style: normal;
     font-weight: 600;
@@ -482,22 +445,15 @@ input:checked + .slider::before{
 }
 
 .image-communaute {
-    max-width: 100%;
-    height: 229px;
+    height: 224px;
 }
 
 .rectangle-blanc{
-    position: relative;
-    max-width: 489px;
     height: 221px;
     background: #FEF0E9;
     border-radius: 8px;
-    bottom: 230px;
-    left: 4px;
-    font-style: normal;
     font-weight: 300;
     font-size: 15px;
-    line-height: 20px;
     text-align: justify;
     padding: 32px 64px 39px 38px;
 }
@@ -511,13 +467,10 @@ input:checked + .slider::before{
 }
 
 .rectangle-blanc_container-text{
-    adding: 32px 64px 39px 38px;
     width: 386px;
     height: 103px;
 }
-
 /* Bouton deposer une annonce */
-
 #Déposer-une-annonce{
     width: 235px;
     height: 44px;
@@ -528,36 +481,26 @@ input:checked + .slider::before{
     align-items: center;
     margin-top: 24px;
 }
-
 /* Pour appliquer des marges auto */
-
 .container-texte-passionner{
     margin: 0 auto;
     max-width: 1180px;
 }
-
 /* Conteneur du bloc communauté */
-
 .container-communaute{
+    display: flex;
     margin-bottom: 80px;
     margin: 0 auto;
     max-width: 1180px;
 }
 
 .text-avec_assigame{
-    position: relative;
     text-align: justify;
-    bottom: 152px;
     max-width: 1180px;
-    margin: 0 auto;
+    margin: 0px auto;
+    padding: 40px 10px;
 }
-
 /* troisieme section */
-
-.section-trois{
-
-}
-
 .container-section_trois{
     max-width: 1180px;
     height: 567px;
@@ -588,6 +531,7 @@ input:checked + .slider::before{
     align-items: center;
     margin-left: 75%;
     bottom: 40px;
+    margin-right: 10px;
 }
 
 .text-avis-pertinant{
@@ -598,9 +542,7 @@ input:checked + .slider::before{
     position: relative;
     bottom: 48px;
 }
-
 /* les commentaires  */
-
 .bock-bul_commentaire{
     position: relative;
     margin: 22px  0 0 60px;
@@ -611,7 +553,6 @@ input:checked + .slider::before{
     min-height: 73px;
     left: 207px;
     top: 1641px;
-    
     background: #FAFAFA;
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
     border-radius: 25px 25px 25px 0px;
@@ -645,9 +586,7 @@ input:checked + .slider::before{
     color: #336699;
     margin-bottom: 10px;
 }
-
 /* deuxieme bul commentaire */
-
 .bul-deux{
     max-width: 279px;
     height: 73px;
@@ -667,9 +606,7 @@ input:checked + .slider::before{
     bottom: 67px;
     left: 30px;
 }
-
 /* Troisieme bul commentaire */
-
 .bul-commentaire-trois{
     position: relative;
     max-width: 314px;
@@ -690,16 +627,12 @@ input:checked + .slider::before{
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
     border-radius: 25px 25px 25px 0px;
 }
-
 /* grand-bock-bul_commentaire pour deplacer le contenu vers le haut */
-
 .grand-bock-bul_commentaire{
     position: relative;
     bottom: 48px;
 }
-
 /* grand conteneur pour le flex */
-
 #container-bock-bul_commentaire{
     display: flex;
 }
@@ -714,9 +647,7 @@ input:checked + .slider::before{
 .image-avis{
     width: 100%;
 }
-
 /* bouton lire tous les avis */
-
 #lire-avis{
     position: relative;
     display: flex;
@@ -735,17 +666,13 @@ input:checked + .slider::before{
     color: #ED3B3B;
     top: 3px;
 }
-
 /*      4em section       */
-
 .contenaire-nos_partenaires{
     max-width: 1180px;
     height: 361px;
     left: 0px;
     top: 2044px;
     margin: 0 auto;
-    ackground: #FFFFFF;
-    ox-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
 }
 
 .title-nos-partenaires {
@@ -775,15 +702,19 @@ input:checked + .slider::before{
     position: relative;
     bottom: 20px;
 }
-
-/*           5em  section          */
+/*======= formulaire-maps =========*/
+.form-map{
+    display: flex;
+}
 
 .container-localisation{
-    width: 100%;
-    height: 627px;
+    width: 30%;
+    height: 508px;
     background: #FFFFFF;
     box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
     margin-bottom: 60px;
+    margin: 0 auto;
+    margin-left: 10px;
 }
 
 #title-localisation{
@@ -793,20 +724,16 @@ input:checked + .slider::before{
     font-size: 26px;
     line-height: 35px;
     color: #336699;
-    padding: 57px 0 54px 0;
+    padding: 40px 0 70px 0;
     margin: 0 auto;
 }
 
 .carte-maps{
-    position: relative;
-    top: 22px;
-    width: 1000px;
-    height: 430px;
+    max-width: 372px;
+    height: 348px;
     margin: 0 auto;
 }
-
 /*            6em section           */
-
 .container-contactez-nous{
     max-width: 753px;
     height: 508px;
@@ -839,11 +766,7 @@ input:checked + .slider::before{
     top: 23px;
     margin: 0 auto;
 }
-
           /*          formulaire         */
-
-          
-
 .container-formulaire{
     position: relative;
     top: 59px;
@@ -870,20 +793,16 @@ input:checked + .slider::before{
 }
 
 .field-label{
-    /* position relative */
     position: relative;
     line-height: 16px;
     font-weight: 600;
     font-size: 15px;
     color: #A8B4C0;
     display: block;
-
-    /* chercher les transform aussi . Mais en attendent j'ai qu'il a ramener le label en bas */
     transform: translateY(24px);
 }
 
 .field-input{
-    /* position relative */
     position: relative;
     display: block;
     width: 100%;
@@ -895,38 +814,20 @@ input:checked + .slider::before{
 }
 
 .field::after{
-    /* faire des recherches sur les pseudo elements */
-
-    /* a chercher ( content) */
-
     content: '';  
     height: 2px;
     width: 303px;
-    /* les positinnement aussi a chercher */
     position: absolute;
-
-    /* on peut ne pas mettre de bottom cela fonctionne aussi, la je veux juste apprendre. 
-    
-    essayer aussi de voir comment je peux je peut faire meme chose via (border) */
     bottom: 30px;
     background-color: #85B940;
     ;
 }
 
 .field-trois::after{
-    /* faire des recherches sur les pseudo elements */
-
-    /* a chercher ( content) */
-
     content: '';  
     height: 2px;
     width: 100%;
-    /* les positinnement aussi a chercher */
     position: absolute;
-
-    /* on peut ne pas mettre de bottom cela fonctionne aussi, la je veux juste apprendre. 
-    
-    essayer aussi de voir comment je peux je peut faire meme chose via (border) */
     bottom: 30px;
     background-color: #85B940;
     ;
@@ -940,8 +841,6 @@ placeholder{
     font-size: 15px;
     color: #A8B4C0;
     display: block;
-
-    /* chercher les transform aussi . Mais en attendent j'ai qu'il a ramener le label en bas */
     transform: translateY(24px);
 }
 
@@ -958,10 +857,7 @@ placeholder{
     margin: 0 auto;
     top: 79px;
 }
-
-
 /*          7em section           */
-
 section-sept{
     height: 432px;
     min-width: 100%;
@@ -983,11 +879,7 @@ section-sept{
     height: 350px;
     margin: 0 auto;
 }
-
 /*       1ER BLOCK         */
-
-/* 1er sous bloc a propos */
-
 .bloc-footer_un_un{
     width: 241px;
     height: 110px;
@@ -1008,10 +900,7 @@ section-sept{
     font-size: 17px;
     color: #FFFFFF;
 }
-
-
 /*            2em sous bloc    a propos       */
-
 .bloc-footer_un_deux{
     width: 236px;
     height: 163px;
@@ -1032,9 +921,7 @@ hr{
     bottom: 15px;
     left: 30px;
 }
-
 /*         deuxieme bloc(grand)            */
-
 .bloc-footer_deux{
     position: relative;
     bottom: 3px;
@@ -1050,10 +937,7 @@ hr{
     text-align: justify;
     color: #FFFFFF;
 }
-
 /*          3em bloc (grand)           */
-
-
 .bloc-footer_trois{
     width: 283px;
     height: 281px;
@@ -1061,18 +945,14 @@ hr{
     bottom: 3px;
     display: block;
 }
-
 /*          4em bloc (grand)           */
-
 .bloc-footer_quatre{
     position: relative;
     bottom: 3px;
     display: block;
     height: 200px;
 }
-
 /*             2em partie footer         */
-
 .bloc-footer_global-deux{
     display: flex;
     justify-content: space-between;
@@ -1109,3 +989,669 @@ hr{
 .bloc-footer_global-un a{
     color: white;
 }
+
+/*         partie responsivité      */
+
+@media screen and (max-width: 2561px) {
+    body {
+      background-size: 2600px 650px;
+    }
+  }
+  
+  @media screen and (max-width: 1441px) {
+    body {
+      background-size: 1441px 650px;
+    }
+  }
+  
+  @media screen and (max-width: 1207px) {
+    .place-marker {
+      left: 0;
+    }
+  }
+  
+  @media screen and (max-width: 1185px) {
+    .container-header {
+      padding: 0 21px;
+    }
+  }
+  
+  @media screen and (max-width: 1162px) {
+    #img-avis {
+      left: 100px;
+      top: 43px;
+      max-width: 260px;
+    }
+  
+  @media screen and (max-width: 1280px) {
+    body {
+      background-size: 1281px 650px;
+    }
+  }
+  
+  @media screen and (max-width: 1036px) {
+    .select-categories {
+      display: none;
+    }
+  
+    .select-categories, #bulleted, .bouton-prix, .voir-egalement, .voir-egalement, .bouton-on_off, .box-deux, .bloc-footer_quatre {
+      display: none;
+    }
+  
+    .conteneur-bouton_recherche a {
+      /* bottom: 3px; */
+      top: 45px;
+    }
+  
+    .container-section-deux {
+      position: relative;
+      top: 20px;
+    }
+  
+    h1 {
+      margin: 9px 0;
+    }
+  }
+  
+  @media screen and (max-width: 930px) {
+      header {
+      height: 87px;
+    }
+    #logo {
+      height: 87px;
+    }
+    .container-communaute {
+      display: block;
+    }
+    .width-cent {
+      width: 100% !important;
+    }
+    .image-communaute {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 866px) {
+    .image-avis, #logo-ecobank{
+      display: none;
+    }
+    .form-map{
+        display: block;
+    }
+    .container-localisation {
+      width: 54%;
+      height: 499px;
+      background: #FFFFFF;
+      box-shadow: 0px 0px 4px 1px rgb(0 0 0 / 25%);
+      margin: 0 auto;
+  }
+  }
+  
+  @media screen and (max-width: 836px) {
+    .select-categories, #bulleted, .bouton-prix, .voir-egalement, .voir-egalement, .bouton-on_off, .box-deux {
+      display: none;
+    }
+  
+    .conteneur-bouton_recherche a {
+      top: 50px;
+    }
+  
+    .container-section-deux {
+      display: flex;
+      justify-content: center;
+      margin-top: 17px;
+      position: relative;
+      top: 24px;
+      left: 0px;
+    }
+  
+    .place-marker {
+      margin-left: 0;
+    }
+  }
+  
+  @media screen and (max-width: 821px) {
+    #logo {
+      width: 100px;
+      height: 60px;
+    }
+  
+    header {
+      height: 60px;
+      padding: 0 10%;
+    }
+  
+    .header-right-center {
+      display: none;
+    }
+  
+    .header-right-center img {
+      display: none;
+    }
+  
+    h1 {
+      margin: 10px 0;
+    }
+  
+    .search-bar {
+      right: 6px;
+    }
+  }
+  
+  @media screen and (max-width: 769px) {
+    .search-bar {
+      right: 6px;
+    }
+  
+    .section_deux {
+      margin-top: 41px;
+    }
+  }
+  
+  @media screen and (max-width: 739px) {
+    form.example button {
+      width: 34px;
+    }
+  
+    .container-section-deux {
+      display: block;
+      top: 24px;
+      left: 0;
+      position: relative;
+      margin-left: 200px;
+    }
+  
+    .search-bar {
+      bottom: 24px;
+      right: 0;
+    }
+  
+    .place-marker {
+      right: 100px;
+    }
+  }
+  
+  @media screen and (max-width: 631px) {
+    .div-forulaire {
+      display: none;
+    }
+  
+    .container-section-deux {
+      padding-top: 31px;
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    .bloc-footer_trois {
+      display: none;
+    }
+  
+    .bloc-footer_un {
+      left: 0;
+    }
+  }
+  
+  @media screen and (max-width: 619px) {
+    .search-bar button, .example button {
+      display: none;
+    }
+  
+    .container-section-deux {
+      margin-left: 136px;
+    }
+  
+    .text-avec_assigame {
+      bottom: 185px;
+    }
+  
+    .bul {
+      width: 278px;
+    }
+  
+    .bul-commentaire {
+      width: 210px;
+      font-size: 12px;
+      bottom: 70px;
+    }
+  
+    .bul-commentaire-trois {
+      width: 210px;
+      font-size: 12px;
+      bottom: 70px;
+    }
+  
+    .Retrouvez-nous-sur {
+      display: none;
+    }
+  
+    .Togocom,
+    .text-avis-pertinant,
+    .bloc-footer_deux {
+      display: none;
+    }
+  
+  
+    .bloc-footer_global-un {
+      padding-left: 125px;
+    }
+  }
+  
+  @media screen and (max-width: 610px) {
+    .field::after {
+      width: 217px;
+    }
+  }
+  
+  @media screen and (max-width: 599px) {
+    .bloc-footer_deux {
+      display: none;
+    }
+  
+    .titre-rejoindre-communaute {
+      font-size: 24px;
+    }
+  }
+  
+  @media screen and (max-width: 531px) {
+    .container-section-deux {
+      margin-left: 151px;
+    }
+  }
+  
+  @media screen and (max-width: 530px) {
+    .container-section-deux {
+      margin-left: 104px;
+    }
+  }
+  
+  @media screen and (max-width: 426px) {
+    header {
+      max-height: 60px;
+      padding: 0 6%;
+      width: 440px;
+    }
+  
+    .header-add {
+      position: relative;
+      left: 17px;
+    }
+  
+    h1 {
+      position: relative;
+      left: 11px;
+    }
+  
+    .search-bar button {
+      display: block;
+    }
+  
+    form.example input {
+      width: 258px;
+    }
+  
+    .div-forulaire {
+      display: none;
+    }
+  
+    .div-forulaire,
+    .place-marker {
+      display: none;
+    }
+  
+    .bouton-prix,
+    #img-avis img {
+      display: none;
+    }
+  
+    .voir-egalement,
+    .conteneur-bouton_recherche a,
+    .bouton-on_off {
+      display: none;
+    }
+  
+    .container-section-deux {
+      margin-left: 1px;
+      display: block;
+      top: 108px;
+    }
+  
+    .titre-rejoindre-communaute {
+      padding-left: 15px;
+    }
+  
+    .select-categories {
+      margin: 22px 69px;
+      width: 377px;
+      height: 45px;
+    }
+  
+    .search-bar {
+      left: 22px;
+      bottom: 114px;
+    }
+  
+    .place-marker {
+      right: 12px;
+      bottom: 50px;
+    }
+  
+    .section_deux {
+      width: 100%;
+      height: 911px;
+      margin-top: 31px;
+    }
+  
+    .titre-categories {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      color: #336699;
+      padding-top: 11px;
+      text-align: center;
+      margin-bottom: 14px;
+    }
+  
+    .rectangle-blanc {
+      max-width: 440px;
+      line-height: 20px;
+      text-align: justify;
+      padding: 32px 64px 39px 38px;
+    }
+  
+    #Déposer-une-annonce {
+      width: 235px;
+      height: 44px;
+      margin-top: 28px;
+      margin-left: 57px;
+    }
+  
+    .text-avec_assigame {
+      text-align: justify;
+      padding: 40px 0px;
+      max-width: 390px;
+    }
+  
+    .section-trois {
+      margin-top: 168px;
+    }
+  
+    .section_deux {
+      height: 782px;
+      width: 440px;
+    }
+  
+    #avis {
+      padding: 9px 0 17px 0;
+      margin-bottom: 22px;
+    }
+  
+    .bul {
+      width: 278px;
+    }
+  
+    .bul-commentaire {
+      width: 210px;
+      font-size: 12px;
+      bottom: 70px;
+    }
+  
+    .bul-trois {
+      width: 278px;
+    }
+  
+    .bul-commentaire-trois {
+      width: 210px;
+      font-size: 12px;
+      bottom: 70px;
+    }
+  
+    .container-section_trois {
+      height: 532px;
+      width: 440px;
+    }
+  
+    #lien-avis {
+      position: relative;
+      top: 12px;
+    }
+  
+    .title-nos-partenaires {
+      padding: 35px 0 70px 0;
+      margin-left: 106px;
+      max-width: 400px;
+    }
+  
+    .none {
+      display: none;
+    }
+  
+    .logo-partenaires {
+      display: flex;
+      max-width: 400px;
+    }
+  
+    #logo-cercle_or {
+      margin-left: 32px;
+      position: relative;
+      bottom: 20px;
+    }
+  
+    .image-deux {
+      position: relative;
+      bottom: 43px;
+      left: 35px;
+    }
+  
+    .contenaire-nos_partenaires {
+      width: 100%;
+      height: 290px;
+    }
+  
+    #title-localisation {
+      padding: 23px 0 33px 0;
+      max-width: 400px;
+    }
+  
+    .container-contactez-nous {
+      width: 376px;
+      height: 508px;
+    }
+  
+    .bloc-footer_un_trois_quatre,
+    .bloc-footer_global-deux_un {
+      display: none;
+    }
+  
+    .bloc-footer_global-deux_un {
+      font-size: 10px;
+    }
+  
+    .bloc-footer_global-deux_deux div {
+      margin-left: 69px;
+    }
+  
+    .bloc-footer_deux {
+      display: block;
+      right: 38px;
+    }
+  
+    .Retrouvez-nous-sur {
+      margin: 0 45px;
+      margin-top: 15px;
+    }
+  
+    .dernier-hr {
+      max-width: 423px;
+      margin: 0 auto;
+    }
+  
+    .bouton-prix {
+      display: none;
+    }
+  
+    .image-Gozem {
+      position: relative;
+    }
+  
+    .grand-bock-bul_commentaire {
+      position: relative;
+      bottom: 48px;
+      right: 38px;
+    }
+  
+    .container-section-un {
+      max-width: 372px;
+      margin-left: 34px;
+      height: 93px;
+    }
+  
+    .container-localisation {
+      width: 440px;
+    }
+  
+    .bloc-footer_global-un {
+      max-width: 400px;
+    }
+  
+    #logo {
+      position: relative;
+      right: 24px;
+      margin-right: 34px;
+    }
+  
+    .bloc-footer {
+      width: 440px;
+    }
+  
+    .field::after {
+      content: "";
+      height: 2px;
+      width: 159px;
+      position: absolute;
+      bottom: 30px;
+      background-color: #85b940;
+    }
+  }
+  
+  @media screen and (max-width: 442px) {
+    .container-contactez-nous {
+      position: relative;
+      left: 12px;
+    }
+  }
+  
+  @media screen and (max-width: 427px) {
+    body {
+      background-size: 447px 650px;
+    }
+  }
+  
+  @media screen and (max-width: 376px) {
+    .header-add {
+      width: 174px;
+    }
+  
+    .bloc-footer_deux {
+      right: 63px;
+    }
+  
+    h1 {
+      left: 29px;
+    }
+  
+    .container-section-un {
+      width: 372px;
+    }
+  
+    .titre-rejoindre-communaute {
+      padding-left: 15px;
+    }
+  
+    .container-contactez-nous {
+      margin-left: 24px;
+    }
+  
+    #logo-cercle_or {
+      margin-left: 41px;
+    }
+  }
+  
+  @media screen and (max-width: 366px) {
+    .contenaire-nos_partenaires {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 321px) {
+    #logo {
+      margin-right: 34px;
+      left: 85px;
+      width: 161px;
+    }
+  
+    h1 {
+      left: 52px;
+    }
+  
+    .header-add, .container-section-un, #Déposer-une-annonce, .container-section_trois, .title-nos-partenaires, .logo-partenaires {
+      display: none;
+    }
+  
+    .container-localisation {
+      max-width: 453px;
+      position: relative;
+      bottom: 100px;
+    }
+  
+    .bloc-footer_deux {
+      right: 63px;
+      font-size: 10px;
+    }
+  
+    .titre-rejoindre-communaute {
+      padding-left: 12px;
+    }
+  
+    .bloc-footer_global-deux_deux div {
+      margin-left: 47px;
+    }
+  
+    .rectangle-blanc_container-text {
+      position: relative;
+      top: 40px;
+    }
+  
+    .container-contactez-nous {
+      width: 313px;
+      margin-left: 49px;
+      position: relative;
+      bottom: 40px;
+    }
+  
+    .section_deux {
+      margin-top: 0px;
+    }
+  
+    .field::after {
+      content: "";
+      height: 2px;
+      width: 127px;
+      position: absolute;
+      bottom: 30px;
+      background-color: #85b940;
+    }
+  
+    .container-localisation {
+      height: 571px;
+    }
+  
+    .bloc-footer_global-deux_deux {
+      left: 50px;
+    }
+  
+    .text-avec_assigame {
+      bottom: 237px;
+      padding: 0;
+      max-width: 420px;
+    }
+  }
+  
